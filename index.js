@@ -1,4 +1,5 @@
 const fakeBasicAuth = () => {
+  console.log("fakeBasicAuth");
   const setPass = `aaa`.toUpperCase();
   const whiteURL = [];
   const htmlElStyle = document.querySelector("html").style;
